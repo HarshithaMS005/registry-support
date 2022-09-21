@@ -1,4 +1,4 @@
-schemaVersion: 2.0.0
+schemaVersion: 2.1.0
 metadata:
   description: Stack with the latest Go version
   displayName: Go Runtime
@@ -19,7 +19,7 @@ starterProjects:
 components:
   - container:
       endpoints:
-        - name: http
+        - name: http-go
           targetPort: 8080
       image: golang:latest
       memoryLimit: 1024Mi

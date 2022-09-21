@@ -1,4 +1,4 @@
-schemaVersion: 2.0.0
+schemaVersion: 2.1.0
 metadata:
   description: Stack with Laravel 8
   displayName: Laravel
@@ -21,7 +21,7 @@ starterProjects:
 components:
   - container:
       endpoints:
-        - name: http
+        - name: http-laravel
           targetPort: 8000
       image: composer:2.1.11
       memoryLimit: 1024Mi
