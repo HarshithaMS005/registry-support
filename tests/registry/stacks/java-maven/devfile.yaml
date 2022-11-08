@@ -16,7 +16,7 @@ starterProjects:
 components:
   - name: tools
     container:
-      image: registry.redhat.io/codeready-workspaces/plugin-java11-rhel8
+      image: docker.io/library/maven:latest
       memoryLimit: 512Mi
       mountSources: true
       endpoints:
